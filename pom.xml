@@ -25,6 +25,7 @@
                     <source>${project.java.version}</source>
                     <target>${project.java.version}</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
+
                 </configuration>
             </plugin>
             <plugin>
