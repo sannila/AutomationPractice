@@ -31,7 +31,7 @@ public class LogInPageTest extends TestBase {
 
     }
 
-    /*@Test
+    @Test
     public void verifyLoginPageTitleTest(){
 
         logInPage.verifyLoginPageTitle();
@@ -42,7 +42,7 @@ public class LogInPageTest extends TestBase {
     @Test
     public void verifyLoginPageLogoTest(){
         logInPage.verifyLoginPageLogo();
-    }*/
+    }
 
     @Test(dataProvider = "LoginData",dataProviderClass = CustomDataProvider.class)
     public void verifyLoginTest(String UserName, String Password) throws Exception {
